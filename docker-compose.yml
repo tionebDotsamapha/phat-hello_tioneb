@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  phat-hello:
+    build: .
+    volumes:
+      - "./data/:/root/contracts"
+    restart: always
+    entrypoint: /root/contracts/entrypoint_phat-hello.sh
