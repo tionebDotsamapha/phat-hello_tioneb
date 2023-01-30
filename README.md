@@ -13,6 +13,7 @@ git clone https://github.com/tionebDotsamapha/phat-hello_tioneb.git
 run the command:
 ```bash 
 chmod +x data/entrypoint_phat-hello.sh
+docker-compose up -d
 ```
 
-docker-compose up -d
+
