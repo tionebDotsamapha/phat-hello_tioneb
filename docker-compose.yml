@@ -6,3 +6,4 @@ services:
       - "./data/:/root/contracts"
     restart: always
     entrypoint: /root/contracts/entrypoint_phat-hello.sh
+    tty: true
